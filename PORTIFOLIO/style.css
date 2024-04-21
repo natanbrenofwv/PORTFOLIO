@@ -1,0 +1,37 @@
+header{
+    display:flex;
+ background-color: rgba(241, 125, 232, 0.952);
+padding: 10px 70px;
+justify-content: space-between;
+
+
+}
+
+
+header ul {
+    display:flex;
+    gap: 40px;
+}
+header li{
+    list-style: none;
+}
+
+
+section{
+    padding: 20px 60px;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.direito img{
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5) ;
+}
+
+
+#home{
+    background-color: rgb(99, 67, 29);
+}
